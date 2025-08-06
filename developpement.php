@@ -1,11 +1,12 @@
-<?php include "header.php" ?>
+<?php include "include/header.php" ?>
 
         <header>
             <h1>Z&L Scaletech</h1>
                 <p>Des solutions web & mobiles modernes, performantes et sur-mesure.</p>
                 <a href="#contact">Discutons de votre projet</a>
         </header>
-
+<body> 
+    <?php include "include/navbar.php" ?>
     <main class="page-dev">
         <section>
             <h2>Qui sommes-nous ?</h2>
@@ -74,5 +75,5 @@
         </div>
 
     </main>
-
-<?php include "footer.php" ?>
+</body>
+<?php include "include/footer.php" ?>
