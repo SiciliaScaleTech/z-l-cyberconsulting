@@ -1,5 +1,6 @@
-<?php include "header.php" ?>
-
+<?php include "include/header.php" ?>
+<body>
+    <?php include "include/navbar.php" ?>
         <div class="slogan"><h1>Protégez vos données.<br> Sécurisez votre avenir.</h1></div>  
 
         <main class="services">
@@ -57,8 +58,8 @@
                 </section>     
             </div>              
         </main> 
-
-<?php include "footer.php" ?> 
+</body>
+<?php include "include/footer.php" ?>
 
 
     
