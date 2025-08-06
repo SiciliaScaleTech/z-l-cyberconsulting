@@ -1,4 +1,4 @@
-<?php include "header.php" ?>
+<?php include "include/header.php" ?>
 
 <?php
 // Traitement du formulaire quand l'utilisateur soumet
@@ -25,6 +25,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 }
 ?>
+
+<body>
+<?php include "include/navbar.php" ?>
     <main class="principal_contact">
             
                 <h1 class="formulaire">Formulaire de contact</h1>
@@ -67,6 +70,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 </div>
             </div>      
     </main>
-     
-<?php include "footer.php" ?>
+    
+</body>
+<?php include "include/footer.php" ?>
     
