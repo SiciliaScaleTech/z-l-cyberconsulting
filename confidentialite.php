@@ -1,5 +1,7 @@
-<?php include "header.php" ?>
+<?php include "include/header.php" ?>
 
+<body>
+<?php include "include/navbar.php" ?>
     <main class="principal_politique">
             <h1 class="politique">Politique de confidentialité</h1>
 
@@ -66,5 +68,6 @@
         </div>   
     </main>    
 
-<?php include "footer.php" ?>
+</body>
+<?php include "include/footer.php" ?>
 
