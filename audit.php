@@ -1,5 +1,7 @@
-<?php include "header.php" ?>
+<?php include "include/header.php" ?>
 
+<body>
+    <?php include "include/navbar.php" ?>
     <main class="audit_main">
             <h1 class="title-audit">Les Audits</h1>
             
@@ -46,4 +48,5 @@
             </div>    
     </main>            
 
-<?php include "footer.php" ?>            
+</body>
+<?php include "include/footer.php" ?>          
