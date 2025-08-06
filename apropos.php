@@ -1,10 +1,12 @@
-<?php include "header.php" ?>
+<?php include "include/header.php" ?>
 
   <header class="en-tete-apropos">
     <div class="slogan">
       <a href="index.php" class="logo"><img src="images/logo1.png" alt="Logo_zlcyberconsulting" class="img-logo"></a>
     </div>
   </header>
+<body>
+  <?php include "include/navbar.php" ?>
 
   <main class="services">
     <div class="accueil-container">
@@ -52,6 +54,6 @@
     </div>
   </main>
 
-
-<?php include "footer.php" ?>
+</body>
+<?php include "include/footer.php" ?>
     
