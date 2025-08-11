@@ -3,6 +3,9 @@ $color-bleu: #112D4E;
 $color-text: #fff;
 $color-bleuC: #2768B4;
 
+$color-violetbg:#5b427d;
+$color-textdev: #433a5c;
+
 @mixin margin{
     margin:0 20px;
 }
@@ -288,7 +291,6 @@ main{
     }
 
     p{
-        width: 630px;
         font-size: 20px;
     }
 
@@ -484,7 +486,6 @@ main{
 
     p{
         font-size: 20px;
-        width: 600px;
     }
 
     .services{
@@ -559,6 +560,32 @@ main{
         padding: 0 50px;
     }
 
+/* page développement*/
+
+    .en-tetedev, .en-tetedev .dev_paragra {
+        font-size: 25px;
+    }
+
+    .en-tetedev .dev_title{
+        font-size: 35px;
+    }
+
+    .page-dev p,.page-dev li, .page-dev button{
+        font-size: 25px;
+    }
+
+    .cards .card{
+        height: 250px;
+        width: 350px;
+    }
+
+    .dev_contact input, .dev_contact textarea{
+        font-size: 25px;
+    }
+
+    .dev_contact form {
+        width: 500px;
+    }
 
 
 /* footer*/
@@ -1028,35 +1055,42 @@ main{
     }
 
     .page-dev {
-      background: #f9f9f9;
-      color: #333;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+      background: #e4e7e9;
+      color: $color-textdev;
       line-height: 1.6;
     }
 
-    header {
-      background: #111;
+    .en-tetedev{
+      background: linear-gradient(to left, #6c4a97, #433a5c);
       color: white;
       padding: 100px 20px;
       text-align: center;
-    }
-
-    header h1 {
+        
+        h1 {
       font-size: 2.5rem;
       margin-bottom: 1rem;
     }
 
-    header p {
+    p {
       font-size: 1.2rem;
       margin-bottom: 2rem;
     }
 
-    header a {
+    a {
       color: white;
+      background: #433a5c;
       padding: 12px 24px;
       text-decoration: none;
       border-radius: 8px;
       font-weight: bold;
     }
+
+    }
+
+   
 
     section {
       padding: 60px 20px;
@@ -1108,12 +1142,12 @@ main{
 
     .card-back {
       transform: rotateY(180deg);
-      background: #00aaff;
+      background: $color-violetbg;
       color: white;
     }
 
     .pied-de-page {
-      background: #111;
+      background: linear-gradient(to left, #6c4a97, #433a5c);
       color: white;
       text-align: center;
       padding: 40px 20px;
@@ -1135,7 +1169,7 @@ main{
     }
 
     button {
-      background: #00aaff;
+      background:#433a5c;
       color: white;
       padding: 12px;
       border: none;
