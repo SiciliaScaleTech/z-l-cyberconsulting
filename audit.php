@@ -8,7 +8,7 @@
             <div class="audit-container">
                 <section class="audit-article">
                     <div class="image-audit-pentest">
-                        <img src="images/img-services/audit-vulnérabilité.jpg" alt="image de audit de vulnérabilité" class="audit-img-droite">
+                        <img src="images/img-services/audit-vulnérabilité.webp" alt="image de audit de vulnérabilité" class="audit-img-droite">
                     </div> 
                     <div class="content">
                         <h2 class="audit-title">Audit de Vulnérabilité</h2>
@@ -21,7 +21,7 @@
                 <hr>
                 <section class="audit-article-inverse">
                     <div class="image-audit-pentest">
-                        <img src="images/img-services/audit-dexposition.jpg" alt="image audit d'exposition" class="audit-img-gauche">
+                        <img src="images/img-services/audit-dexposition.webp" alt="image audit d'exposition" class="audit-img-gauche">
                     </div>
                     <div class="content">
                         <h2 class="audit-title">Audit d'Exposition</h2>
@@ -35,7 +35,7 @@
                 <hr>
                 <section class="audit-article">
                     <div class="image-audit-pentest">
-                        <img src="images/img-services/audit-AD.jpg" alt="image AD" class="audit-img-droite">
+                        <img src="images/img-services/audit-AD.webp" alt="image AD" class="audit-img-droite">
                     </div>
                     <div class="content">
                         <h2 class="audit-title">Audit d'Active Directory</h2>
