@@ -277,30 +277,12 @@ main {
   .audit_main .audit-container .audit-img-gauche:hover,
   .audit_main .audit-container .audit-img-droite:hover {
     transform: scale(1.05) translateY(-5px);
-    cursor: pointer;
-  }
-  .audit_main .audit-container .audit-article {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    gap: 2rem;
-    margin-bottom: 3rem;
   }
   .audit_main .audit-container .audit-article .content,
   .audit_main .audit-container .audit-article .image-audit-pentest,
   .audit_main .audit-container .audit-article-inverse .content,
   .audit_main .audit-container .audit-article-inverse .image-audit-pentest {
     flex: 1;
-  }
-  .audit_main .audit-container .audit-article-inverse {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: row-reverse;
-    gap: 2rem;
-    margin-bottom: 3rem;
   }
   .audit_main .audit-container .audit-article .audit-article-inverse img {
     max-width: 100%;
@@ -422,6 +404,23 @@ main {
     min-width: 1200px;
     margin: 0 auto;
     padding: 0 50px;
+  }
+  .audit-container .audit-article {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-bottom: 3rem;
+  }
+  .audit-container .audit-article-inverse {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    gap: 2rem;
+    margin-bottom: 3rem;
   }
   /* page contact*/
   body .principal_contact {
@@ -827,7 +826,6 @@ label {
   /* Taille et alignement uniformes */
   display: inline-block;
   width: 90px;
-  text-align: right;
 }
 
 .icone_contact {

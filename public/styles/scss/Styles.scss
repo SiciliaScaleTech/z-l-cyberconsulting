@@ -346,18 +346,8 @@ main{
             .audit-img-gauche:hover,
             .audit-img-droite:hover {
                 transform: scale(1.05) translateY(-5px);
-                cursor: pointer;
             }
 
-
-            .audit-article{
-                display: flex;
-                flex-direction: row;
-                align-items: center;
-                justify-content: space-between;
-                gap: 2rem;
-                margin-bottom: 3rem;
-            }
 
             .audit-article .content,
             .audit-article .image-audit-pentest,
@@ -367,16 +357,7 @@ main{
                 flex: 1;
             }
 
-            .audit-article-inverse{
-                display: flex;
-                flex-direction: row;
-                align-items: center;
-                justify-content: space-between;
-                flex-direction: row-reverse;
-                gap: 2rem;
-                margin-bottom: 3rem;
-                
-            }
+            
 
             .audit-article .audit-article-inverse img {
                 max-width: 100%;
@@ -536,6 +517,26 @@ main{
         margin: 0 auto;
         padding: 0 50px;
     }
+
+     .audit-container .audit-article{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+                gap: 2rem;
+                margin-bottom: 3rem;
+            }
+
+            .audit-container .audit-article-inverse{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+                flex-direction: row-reverse;
+                gap: 2rem;
+                margin-bottom: 3rem;
+                
+            }
 
 
 /* page contact*/
@@ -1009,7 +1010,6 @@ main{
     /* Taille et alignement uniformes */
     display: inline-block;
     width: 90px;
-    text-align: right;
     }
 
 

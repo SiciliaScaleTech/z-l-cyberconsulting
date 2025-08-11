@@ -1,9 +1,12 @@
 <?php include "include/header.php" ?>
 
         <header>
-            <h1>Z&L Scaletech</h1>
-                <p>Des solutions web & mobiles modernes, performantes et sur-mesure.</p>
-                <a href="#contact">Discutons de votre projet</a>
+            <div class="en-tetedev">
+                <h1 class="dev_title">Z&L Scaletech</h1>
+                <p class="dev_paragra">Des solutions web & mobiles modernes, performantes et sur-mesure.</p>
+            
+                
+             </div>   
         </header>
 <body> 
     <?php include "include/navbar.php" ?>
@@ -60,7 +63,7 @@
                 </ul>
         </section>
 
-        <section id="contact">
+        <section class="dev_contact">
             <h2>Contact</h2>
                 <form>
                 <input type="text" placeholder="Votre nom" required />
